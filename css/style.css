@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman',;
+}
+ 
+body{
+    font-family: Verdana;
+    background-color: #f8efe6;
+}
+ 
+header{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #3f5c63;
+    color: #f8efe6;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+#panel-boczny {
+    float: left;
+    width: 20%;
+    min-width: 200px;
+}
+#lewy-gora{
+    background-color: #ea614a;
+    color: #3f5c63;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+#lewy-gora a{
+    color: #efcc6e;
+    text-decoration: none;
+    font-weight: bold;
+}
+#lewy-gora a:hover{
+    color: #3f5c63;
+    text-decoration: none;
+}
+ 
+#lewy{
+    background-color: #ea614a;
+    border-radius: 10px;
+    color: #f8efe6;
+    padding: 20px;
+    margin: 10px;
+}
+ 
+#lewy p {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: none;
+    color: #efcc6e;
+}
+#lewy a {
+    color: #efcc6e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#lewy select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    color: #f8efe6;
+    background-color: #ea614a;
+}
+
+ 
+main{
+    width: 72%;
+    margin: 10px;
+    float: left;
+}
+ 
+footer{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    background-color: #3f5c63;
+    color: #f8efe6;
+    padding: 10px;
+    clear: both;
+    margin-top: 20px;
+}
+ 
+table{
+    width: 100%;
+    background-color: #466f79;
+    border-collapse: collapse;
+    float: center;
+    margin-top: 20px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+th, td{
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #3f5c63;
+}
+ 
+th{
+    background-color: #3f5c63;
+    color: #f8efe6;
+}
+ 
+td {
+    background-color: #466f79;
+    color: white;
+}
+ 
+td a {
+    color: #efcc6e;
+    text-decoration: none;
+    font-weight: bold;
+}
+td a:hover{
+    color: #ea614a;
+    text-decoration: underline;
+}
+ 
+#addform{
+    background-color: #ea614a;
+    padding: 30px;
+    border-radius: 10px;
+    color: #efcc6e;
+    margin: 20px auto;
+    width: 65%;
+    box-shadow: 5px 5px 5px #efcc6e;
+   
+}
+#editform{
+    background-color: #ea614a;
+    padding: 30px;
+    border-radius: 10px;
+    color: #efcc6e;
+    margin: 40px auto;
+    box-shadow: 5px 5px 5px #efcc6e;
+    max-width: 500px;
+    clear: both;
+}
+ 
+#addform h3, #addform h4, #editform h3, #editform h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+ 
+#addform form, #editform form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+ 
+#addform label, #editform label{
+    font-weight: bold;
+}
+ 
+#addform input[type="text"], #editform input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+   
+}
+#addform input[type="submit"], #editform input[type="submit"] {
+    align-self: center;
+    padding: 10px 20px;
+    background-color: #f8efe6;
+    color: #466f79;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+#addform input[type="submit"]:hover, #editform input[type="submit"]:hover{
+    background-color: #efcc6e;
+    color: #3f5c63;
+}
+ 
+#addform input[type="text"]:focus, #editform input[type="text"]:focus {
+    outline: none;
+    border: 2px solid #efcc6e;
+    box-shadow: 0 0 5px #efcc6e;
+}
+
+#selektor{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    background-color: #ffffff;
+}
+
