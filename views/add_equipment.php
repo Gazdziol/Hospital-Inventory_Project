@@ -2,7 +2,7 @@
 session_start();
 
 if (!isset($_SESSION['user'])) {
-    header("Location: login.html");
+    header("Location: /Repos/Hospital-Inventory/logowanie/login.php");
     exit();
 }
 
@@ -43,6 +43,6 @@ try{
 }
 }
 
-header("location:/GitHub/Szpital-projekt/index.php");
+header("location:/Repos/Hospital-Inventory/index.php");
 
 ?>

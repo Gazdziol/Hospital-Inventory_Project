@@ -25,5 +25,5 @@ try{
     echo "Błąd mysqli";
 }
 
-header("location:/GitHub/Szpital-projekt/index.php");
+header("location:/Repos/Hospital-Inventory/index.php");
 ?>

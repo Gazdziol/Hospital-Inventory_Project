@@ -28,7 +28,7 @@ if(empty($login)){
 
         if(mysqli_num_rows($wynik) > 0){
             $_SESSION['user'] = $login;
-            header("location:/GitHub/Szpital-projekt/index.php");
+            header("location:/Repos/Hospital-Inventory/index.php");
         }else{
             header("Location:login.html");
         }

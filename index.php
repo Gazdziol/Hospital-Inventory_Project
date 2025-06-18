@@ -24,7 +24,7 @@
     <div id="panel-boczny">
          <section id="lewy-gora">
             <p>Zalogowany jako: <?php echo $_SESSION['user']; ?></p>
-            <a href="/GitHub/Szpital-projekt/logowanie/logaut.php">Wyloguj</a>
+            <a href="/Repos/Hospital-Inventory/logowanie/logaut.php">Wyloguj</a>
         </section>
         <section id="lewy">
             <a href="Oddzialy/oddzial.php"><p>Dodaj oddział -></p></a><br>

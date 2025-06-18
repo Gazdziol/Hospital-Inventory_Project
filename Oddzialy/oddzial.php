@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inwentaryzacja Sprzętu Szpitalnego</title>
-    <link rel="stylesheet" href="/GitHub/Szpital-projekt/css/style.css">
+    <link rel="stylesheet" href="/Repos/Hospital-Inventory/Szpital-projekt/css/style.css">
 </head>
 <body>
 
@@ -33,7 +33,7 @@
             <h3>Dodaj oddział szpitalny</h3>
             
             <h4>Dodaj oddział</h4>
-            <form action="/GitHub/Szpital-projekt/Oddzialy/addoddzial.php" method="GET">
+            <form action="/Repos/Hospital-Inventory/Oddzialy/addoddzial.php" method="GET">
                 <label for="oddzial">Oddział</label>
                 <input type="text" name="oddzial"> <br>
                 <label for="budynek">Budynek</label>
@@ -79,8 +79,8 @@
                         echo "<td>".$rekord["oddzial"]."</td>";
                         echo "<td>".$rekord["budynek"]."</td>";
                         echo "<td>".$rekord["pietro"]."</td>";
-                        echo "<td>" . "<a href=/GitHub/Szpital-projekt/Oddzialy/deleteoddzial.php?usun=" .$rekord['id_o']. ">Usuń</a>" . "</td>";
-                        echo "<td>" . "<a href=/GitHub/Szpital-projekt/Oddzialy/edit_form_oddzial.php?edit=" .$rekord['id_o']. ">Edytuj</a>" . "</td>";
+                        echo "<td>" . "<a href=/Repos/Hospital-Inventory/Oddzialy/deleteoddzial.php?usun=" .$rekord['id_o']. ">Usuń</a>" . "</td>";
+                        echo "<td>" . "<a href=/Repos/Hospital-Inventory/Oddzialy/edit_form_oddzial.php?edit=" .$rekord['id_o']. ">Edytuj</a>" . "</td>";
                         echo "</tr>";
                         $rekord = mysqli_fetch_assoc($wynik);
                     }
