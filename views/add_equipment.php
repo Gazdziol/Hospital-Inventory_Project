@@ -2,7 +2,7 @@
 session_start();
 
 if (!isset($_SESSION['user'])) {
-    header("Location: /Repos/Hospital-Inventory/logowanie/login.php");
+    header("Location: /Repos/Hospital-Inventory/logowanie/login.html");
     exit();
 }
 
